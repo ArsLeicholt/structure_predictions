@@ -1,0 +1,33 @@
+{
+  "name": "my_sample_project",
+  "sequences": [
+    {
+      "protein": {
+        "id": ["A"],
+        "sequence": "MGSSHHHHHHSSGLVPRGSHMKTIIALSYIFCLVFAD",
+        "unpairedMsa": "/path/to/unpaired_a3m_file.a3m",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "protein": {
+        "id": ["B"],
+        "sequence": "MAIVMGRWKGARLHLRGSQVVYANLGCSEQVGQLQQL",
+        "unpairedMsa": "",
+        "pairedMsa": "/path/to/paired_a3m_file.a3m",
+        "templates": []
+      }
+    },
+    {
+      "ligand": {
+        "id": ["X"],
+        "ccdCodes": ["ATP"]
+      }
+    }
+  ],
+  "modelSeeds": [42],
+  "dialect": "alphafold3",
+  "version": 1
+}
+
